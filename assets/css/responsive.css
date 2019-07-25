@@ -1,0 +1,271 @@
+@media (min-width: 1300px) {
+	
+}
+
+@media (min-width: 1600px) {
+	
+}
+
+/* Portrait tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .banner-area .social-media:after,
+    .banner-area .social-media ul {
+        height: 250px;
+    }
+    .process-area .single-process .content h4 {
+        font-size: 17px;
+    }
+    .work-area .work-menu ul li {
+        padding: 10px 5px;
+    }
+}
+
+/* Portrait tablets and small desktops */
+@media  (max-width: 991px) {
+    .header-area{display: none !important;}
+    .mobile-logo-area{display: block !important;}
+    .cookcodesmenu_menu {
+        display: block !important;
+    }
+    .banner-area .social-media:after,
+    .banner-area .social-media ul {
+        height: 200px;
+    }
+    .banner-area .content-slider .single-slide .slide-info h1{font-size: 140px;}
+    .process-area .single-process .content h4 {
+        font-size: 17px;
+    }
+    .work-area .work-menu ul li {
+        padding: 10px 5px;
+    }
+    .banner-area .content-slider .single-slide .slide-info h1 {
+        font-size: 72px;
+    }
+    .banner-area .content-slider .single-slide .slide-info h2 {
+        font-size: 42px;
+    }
+    .banner-area .content-slider .single-slide .slide-info p {
+        font-size: 24px;
+    }
+    .about-area .about-content {
+        padding: 0;
+    }
+    .services-area .services-list {
+        margin-left: 0;
+        position: relative;
+        padding: 50px 0;
+        margin-top: 0;
+    }
+    .section-title h2 {
+        font-size: 28px;
+    }
+    .profile-area .button ul li {
+        display: block;
+        margin: 10px 0;
+    }
+    .blog-area .features-image a img,
+    .client-img{
+        margin-bottom: 30px;
+    }
+    .work-area .work-menu ul {
+        margin: 0;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+    }
+    .services-area .services-list ul li {
+        display: block;
+        margin: 70px 35px;
+        transition: 0.3s;
+    }
+    .process-area .single-process {
+        padding: 15px;;
+    }
+    .breadcumb-area {
+        padding: 100px 0;
+    }
+    section.sidebar-area {
+        margin-top: 60px;
+        
+    }
+}
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+    .banner-area .social-media:after, .banner-area .social-media ul {
+        height: auto;
+        position: relative;
+        width: 100%;
+    }
+    .banner-area .social-media {
+        position: absolute;
+        bottom: -365px !important;
+    }
+    .banner-area .social-media ul li {
+        display: inline-block;
+        margin: 10px;
+    }
+    .banner-area .social-media ul li a{
+        font-size: 20px;
+    }
+    .banner-area .content-slider .single-slide .slide-info h1{
+        font-size: 72px;
+        margin-bottom: 30px;
+    }
+    .banner-area .content-slider .single-slide .slide-info strong {
+        font-size: 18px;
+    }
+    .banner-area .content-slider .single-slide .slide-info h2 {
+        font-size: 24px;
+    }
+    .banner-area .content-slider .single-slide .slide-info p {
+        font-size: 14px;
+    }
+    .banner-area .content-slider .single-slide .slide-info h1:after {
+        height: 5px;
+        bottom: -12px;
+        width: 140px;
+    }
+    .banner-area .content-slider .single-slide .slide-info .button ul li {
+        margin-right: 20px;
+    }
+    .about-area .about-content h2 {
+        font-size: 36px;
+    }
+    .about-area .about-content {
+        padding: 0;
+        text-align: center;
+        margin: 30px 0;
+    }
+    .section {
+        padding: 80px 0;
+        text-align: left;
+    }
+    .services-area .services-list ul li .icon {
+        position: relative;
+        left: 0;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .services-area .services-list ul li .icon i {
+        position: relative;
+        left: inherit;
+        top: inherit;
+    }
+    .services-area .services-list ul li .content {
+        margin-left: 0px;
+        text-align: center;
+    }
+    .services-area .services-list ul li:hover .icon i {
+        left: 0;
+    }
+    .process-area .single-process .icon i {
+        position: relative;
+        margin: 30px 0 0;
+    }
+    .process-area .single-process .content {
+        margin: 30px 0;
+    }
+    .process-area .single-process {
+        padding: 15px;
+        margin: 15px;
+    }
+    .section-title2 strong:before {
+        left: 0;
+        bottom: -10px;
+        right: 0;
+        margin: auto;
+    }
+    .section-title2 strong {
+        margin-left: 0;
+    }
+    .profile-area .nav-tabs {
+        text-align: center;
+        display: inherit;
+    }
+    .profile-area .nav-tabs li {
+        display: inline-block;
+    }
+    .client-content blockquote,
+    .client-img h4,
+    .client-img p {
+        text-align: center;
+    }
+    .single-logo {
+        margin: 15px 0;
+    }
+    .contact-area .contact-form form .row input,
+    .contact-area .contact-form form .row textarea {
+        margin: 15px 0;
+    }
+    .contact-area .contact-form form .row {
+        margin: 0;
+    }
+    .banner-area .content-slider .owl-nav button.owl-prev:after{
+        display: none;
+    }
+}
+
+/* Landscape phones and smaller */
+@media (max-width: 480px) {
+    .section {
+        padding: 80px 0;
+        text-align: center;
+    }
+    .banner-area .content-slider .single-slide {
+        text-align: center;
+    }
+    .banner-area .content-slider .owl-nav button.owl-next {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        top: inherit;
+    }
+    .banner-area .content-slider .owl-nav button.owl-prev{
+        bottom: 0;
+        right: 0;
+        top: inherit;
+    }
+    .banner-area .content-slider .owl-nav button.owl-prev:after,
+    .banner-area .content-slider .single-slide .slide-info h1:after{
+        display: none;
+    }
+    .banner-area .content-slider .single-slide .slide-info .button ul li {
+        margin: 15px;
+    }
+    .banner-area .social-media {
+        bottom: -340px !important;
+    }
+    .client-img a {
+        margin: 10px;
+    }
+    .blog-details-area .single-blog .content .social-media {
+        text-align: center !important;
+    }
+    .comments-area h3:after,
+    .comments-form-area .form h3:after {
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+    .comments-area .comment-list li {
+        text-align: left;
+    }
+    .comments-area .comment-list li:nth-child(2n+2) {
+        margin-left: 0;
+    }
+    .comments-form-area{
+        margin-top: 45px;
+    }
+    .pagination-area .pagination-list ul li a {
+        padding: 10px 15px;
+    }
+
+}
+
+@media (max-width: 320px) {	
+	
+    .banner-area .content-slider .single-slide .slide-info .button ul li {
+        display: block;
+        margin: 10px 0;
+    }
+}
